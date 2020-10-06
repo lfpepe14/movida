@@ -1,0 +1,41 @@
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 75px;
+    left: 0px;
+    top: 1018px;
+    background-color: #ED7203;
+}
+
+#direitos{
+    position: absolute;
+    width: 696px;
+    height: 28px;
+    left: 101px;
+    top: 1px;
+    color: white;
+    font-style: normal;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#social-icones{
+    position: absolute;
+    left: 79.33%;
+    right: 8.33%;
+    top: 34.33%;
+    bottom: 8.33%;
+}
+
+#social-icones a{
+    color: white;
+    font-size: 2.6em;
+    padding-right: 16px;
+    padding-top: 10px;
+}
+
+#social-icones a:hover{
+    color: black;
+}
