@@ -1,3 +1,84 @@
+#cabecalho {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 110px;
+    background: #ed7203;
+}
+
+#cabecalho .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+#cabecalho .container #menu {
+    height: 100%;
+}
+
+#menu-icone {
+    position: absolute;
+    width: 42px;
+    height: 7px;
+    left: 52px;
+    top: 37px;
+}
+
+#menu-icone a {
+    color: white;
+    font-size: 2.6em;
+    padding-right: 16px;
+    padding-top: 26px;
+}
+
+#logo {
+    position: absolute;
+    width: 156px;
+    height: 61px;
+    left: 108px;
+    top: 24px;
+}
+
+#menu .ul {
+    display: block;
+    list-style: none;
+    width: 85px;
+    height: 28px;
+    left: 914px;
+    top: 41px;
+}
+
+#lista {
+    display: flex;
+    float: right;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    margin: 0;
+}
+
+#lista li {
+    align-self: center;
+    display: inline;
+    list-style: none;
+    padding: 19px 17px 20px;
+}
+
+#lista li a {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+}
+
+#lista li a i {
+    margin-right: 10px;
+}
+
 footer{
     position: absolute;
     width: 1440px;
