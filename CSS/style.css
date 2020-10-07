@@ -1,4 +1,4 @@
-#cabecalho {
+#cabecalho{
     display: block;
     width: 100%;
     margin: 0;
@@ -7,7 +7,7 @@
     background: #ed7203;
 }
 
-#cabecalho .container {
+#cabecalho .container{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -15,11 +15,11 @@
     height: 100%;
 }
 
-#cabecalho .container #menu {
+#cabecalho .container #menu{
     height: 100%;
 }
 
-#menu-icone {
+#menu-icone{
     position: absolute;
     width: 42px;
     height: 7px;
@@ -27,14 +27,14 @@
     top: 37px;
 }
 
-#menu-icone a {
+#menu-icone a{
     color: white;
     font-size: 2.6em;
     padding-right: 16px;
     padding-top: 26px;
 }
 
-#logo {
+#logo{
     position: absolute;
     width: 156px;
     height: 61px;
@@ -42,7 +42,7 @@
     top: 24px;
 }
 
-#menu .ul {
+#menu .ul{
     display: block;
     list-style: none;
     width: 85px;
@@ -51,7 +51,7 @@
     top: 41px;
 }
 
-#lista {
+#lista{
     display: flex;
     float: right;
     text-decoration: none;
@@ -67,7 +67,7 @@
     padding: 19px 17px 20px;
 }
 
-#lista li a {
+#lista li a{
     color: white;
     font-family: arial;
     font-size: 20px;
@@ -75,13 +75,11 @@
     text-decoration: none;
 }
 
-#lista li a i {
+#lista li a i{
     margin-right: 10px;
 }
 
-
-
-#home {
+#home{
     position: absolute;
     font-family:arial;
     font-size: 14px;
@@ -91,7 +89,7 @@
     Left:39px;
 }
 
-#home h2 {
+#home h2{
      background: linear-gradient(to right, #ED7203 41%, black 0);
      -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -101,9 +99,6 @@
     Height:19px;
     Top:150px;
     Left:39px;
-
-
-
 }
 
 .img-pontos{
@@ -112,12 +107,9 @@
      height: 70px;
      left: 727px;
     top: 258px;
-
 }
 
-.cadastro {
-
-
+.cadastro{
     position: absolute;
     left: 39px;
     top: 258;
@@ -130,157 +122,74 @@
     top: 258px;
 }
 
-
-}
-
-.cadastro .acompanhecadastro h3 {
+.cadastro .acompanhecadastro h3{
     position: absolute;
     width: 228px;
     height: 23px;
     left: 83px;
     top: 277px;
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
-    
     color: #6B6B6B;
-    
-   
-
-
-
 }
 
-.cadastro .VantagensMovida {
+.cadastro .VantagensMovida{
     position: absolute;
     width: 228px;
     height: 23px;
     left: 83px;
     top: 277px;
-    
-    font-family: Roboto;
+    font-family: arial;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
-    
     color: #6B6B6B;
- 
 }
 
-.dadospessoais {
+.dadospessoais{
     position: absolute;
     width: 173px;
     height: 28px;
     left: 450px;
     top: 431px;
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    
     color: #6B6B6B;
-    
 }
- .MainTitle {
-
+.MainTitle{
     position: absolute;
     width: 173px;
     height: 28px;
     left: 450px;
     top: 431px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-
     color: #6B6B6B;
+}
 
- }
-
-
- .UpperText {
-
-    position: absolute;
+.UpperText{
     width: 42px;
     height: 7px;
     left: 52px;
     top: 37px;
-
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    display: inline;
+    color: #6B6B6B;
+}
 
 footer{
     position: absolute;
