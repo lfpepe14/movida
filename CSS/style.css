@@ -386,20 +386,85 @@ p span.numero1::before{
 
 
 
-.enviarBotao{
-  background-color:  #ED7203;
+.enviarBotao input{
   border-radius: 6px;
   position: absolute;
   width: 102px;
-  height: 23px;
-  left: 482px;
+  height: 33px;
+  left: 450px;
   top: 835px;
-
   font-family: arial;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 23px;
+  float: left;
+  color: white;
+  border-color: coral;
+}
+
+.enviarBotao2 input{
+
+  border-radius: 6px;
+  position: absolute;
+  width: 102px;
+  height: 33px;
+  left: 600px;
+  top: 835px;
+  font-family: arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  float: left;
+  color: white;
+  border-color: coral;
+
+}
+
+.continuarBotao {
+
+      position: absolute;
+      width: 186px;
+      height: 46px;
+      left: 1229px;
+      top: 921px;
+      display: flex;
+
+}
+
+.continuarBotao a{
+
+      border: 3px solid orange;
+      border-radius: 6px;
+      background-color: #ED7203;
+      text-decoration: none;
+      color: white;
+      height: 48px;
+      width: 185px;
+      top: 935px;
+      font-size: 20px;
+      font-family: arial;
+      line-height: 44px;
+      padding: 0px 39px;
+      border-color: coral;
+
+
+}
+
+.dadospessoais .titulo h3{
+
+    position: absolute;
+    width: 601px;
+    height: 23px;
+    left: 453px;
+    top: 441px;
+    font-family: arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #6B6B6B;
 
 
 }
@@ -465,7 +530,36 @@ p span.numero1::before{
 
 
 
+.reserva{
+  position: absolute;
+  width: 316px;
+  height: 365px;
+  left: 39px;
+  top: 628px;
+}
+.facaReserva h3{
 
+  position: absolute;
+  width: 183px;
+  height: 28px;
+  left: 1px;
+  top: -62px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 23px;
+  color: darkslategrey;
+
+
+}
+.facaReserva{
+  position: absolute;
+  width: 953px;
+  height: 466px;
+  left: 727px;
+  top: 494px;
+}
 footer{
     position: absolute;
     width: 100%;
