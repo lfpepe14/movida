@@ -80,7 +80,6 @@
 }
 
 
-
 #home {
     position: absolute;
     font-family:arial;
@@ -101,8 +100,6 @@
     Height:19px;
     Top:150px;
     Left:39px;
-
-
 
 }
 
@@ -128,65 +125,160 @@
     border-width: 1px;
     border-color: #DADADA;
     top: 258px;
+    border-radius: 0px 0px 6px 6px;
 }
 
-
-}
 
 .cadastro .acompanhecadastro h3 {
-    position: absolute;
+  position: absolute;
     width: 228px;
     height: 23px;
-    left: 83px;
-    top: 277px;
-    
+    left: 63px;
+    top: 4px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
-    
     color: #6B6B6B;
-    
-   
 
 
+}
 
+.cadastro .acompanhecadastro hr{
+  position: absolute;
+  width: 277.03px;
+  height: 0px;
+  left: 15px;
+  top: 186px;
+  border: 1px solid #6B6B6B;
+}
+
+.cadastro .acompanhecadastro{
+
+    background: white;
+    width: 316px;
+    height: 65px;
+    left: 29px;
+    top: 69px;
+    font-family: arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+.cadastro .acompanhecadastro p {
+
+  position: absolute;
+    width: 255px;
+    height: 29px;
+    left: 32px;
+    top: 74px;
+    font-family: arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 2px;
+    margin: 11px;
+    line-height: 31px;
+
+
+}
+   span.orange{
+   color: #ED7203;
+   font-weight:bold;
+   float: right;
+
+ }
+p span.numero1{
+   width: 19px;
+   height: 19px;
+   position: relative;
+   background-color: #ED7203;
+   display: inline-flex;
+   border-radius: 50%;
+   float: right;
+}
+
+p span.numero1::before{
+   content: "1";
+   position: absolute;
+   align-self: center;
+   display: inline-flex;
+   margin: 0 auto;
+   color: white;
+   font-weight: 700;
+   left: 0;
+   right: 0;
+   width: 10px;
 }
 
 .cadastro .VantagensMovida {
-    position: absolute;
+  position: absolute;
+  width: 284px;
+  height: 23px;
+  left: 32px;
+  top: 202px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  color: #6B6B6B;
+}
+
+.cadastro .VantagensMovida h3 {
+
+  position: absolute;
     width: 228px;
     height: 23px;
-    left: 83px;
-    top: 277px;
-    
+    left: 41px;
+    top: -11px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
-    
     color: #6B6B6B;
- 
+
+}
+
+.cadastro .VantagensMovida p {
+
+   position: absolute;
+   width: 255px;
+   height: 29px;
+   left: -4px;
+   top: 29px;
+   font-family: arial;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   padding: 2px;
+   margin: 11px;
+   line-height: 31px;
+
+
+
+
+
 }
 
 .dadospessoais {
-    position: absolute;
-    width: 173px;
-    height: 28px;
-    left: 450px;
-    top: 431px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    
-    color: #6B6B6B;
-    
+  position: absolute;
+  width: 276px;
+  height: 23px;
+  left: 450px;
+  top: 441px;
+  font-family: arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #6B6B6B;
 }
+
  .MainTitle {
 
     position: absolute;
@@ -206,15 +298,23 @@
  }
 
 
- .UpperText {
+ .UpperText p {
+      display: inline-flex;
+      padding: 0 15px;
+}
 
-    position: absolute;
-    width: 42px;
-    height: 7px;
-    left: 52px;
-    top: 37px;
+.UpperText p:first-child {
+        padding-left: 0;
+}
 
- }
+.UpperText p:last-child {
+       padding-right: 0;
+}
+
+.UpperText p label{
+    margin-left: 10px;
+}
+
 
 
 
