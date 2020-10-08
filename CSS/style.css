@@ -1,4 +1,4 @@
-#cabecalho {
+#cabecalho{
     display: block;
     width: 100%;
     margin: 0;
@@ -7,7 +7,7 @@
     background: #ed7203;
 }
 
-#cabecalho .container {
+#cabecalho .container{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -15,11 +15,11 @@
     height: 100%;
 }
 
-#cabecalho .container #menu {
+#cabecalho .container #menu{
     height: 100%;
 }
 
-#menu-icone {
+#menu-icone{
     position: absolute;
     width: 42px;
     height: 7px;
@@ -27,14 +27,14 @@
     top: 37px;
 }
 
-#menu-icone a {
+#menu-icone a{
     color: white;
     font-size: 2.6em;
     padding-right: 16px;
     padding-top: 26px;
 }
 
-#logo {
+#logo{
     position: absolute;
     width: 156px;
     height: 61px;
@@ -42,7 +42,7 @@
     top: 24px;
 }
 
-#menu .ul {
+#menu .ul{
     display: block;
     list-style: none;
     width: 85px;
@@ -51,7 +51,7 @@
     top: 41px;
 }
 
-#lista {
+#lista{
     display: flex;
     float: right;
     text-decoration: none;
@@ -67,7 +67,7 @@
     padding: 19px 17px 20px;
 }
 
-#lista li a {
+#lista li a{
     color: white;
     font-family: arial;
     font-size: 20px;
@@ -75,7 +75,7 @@
     text-decoration: none;
 }
 
-#lista li a i {
+#lista li a i{
     margin-right: 10px;
 }
 
@@ -90,7 +90,7 @@
     Left:39px;
 }
 
-#home h2 {
+#home h2{
      background: linear-gradient(to right, #ED7203 41%, black 0);
      -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -109,12 +109,9 @@
      height: 70px;
      left: 727px;
     top: 258px;
-
 }
 
-.cadastro {
-
-
+.cadastro{
     position: absolute;
     left: 39px;
     top: 258;
@@ -286,14 +283,13 @@ p span.numero1::before{
     height: 28px;
     left: 450px;
     top: 431px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-
     color: #6B6B6B;
+}
 
  }
 
