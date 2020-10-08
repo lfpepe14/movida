@@ -276,6 +276,7 @@ p span.numero1::before{
   color: #6B6B6B;
 }
 
+
  .MainTitle {
 
     position: absolute;
@@ -291,8 +292,27 @@ p span.numero1::before{
     color: #6B6B6B;
 }
 
- }
+.formContainer{
+    display: flex;
 
+}
+
+.formContainer .UpperText, .formContainer .LowerText {
+  display: inline-flex;
+
+}
+.formContainer .LowerText {
+
+  margin-left:60px;
+}
+
+
+ .UpperText {
+
+    font-size: 16px;
+    line-height: 19px;
+
+ }
 
  .UpperText p {
       display: inline-flex;
@@ -309,9 +329,31 @@ p span.numero1::before{
 
 .UpperText p label{
     margin-left: 10px;
+
 }
 
+.LowerText {
 
+   font-size: 16px;
+   line-height: 19px;
+
+}
+.LowerText p {
+     display: inline-flex;
+     padding: 0 15px;
+}
+
+.LowerText p:first-child {
+       padding-left: 0;
+}
+
+.LowerText p:last-child {
+      padding-right: 0;
+}
+
+.LowerText p label{
+   margin-left: 10px;
+}
 
 
 
