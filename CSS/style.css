@@ -356,7 +356,53 @@ p span.numero1::before{
 }
 
 
+.enviar h4{
+  position: absolute;
+  width: 779px;
+  height: 23px;
+  left: 452px;
+  top: 769px;
+  font-family: arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  background: linear-gradient(to right, #ED7203 26%, black 0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 
+
+.enviar {
+
+  width: 1210px;
+  height: 71px;
+  left: 464px;
+  top: 887px;
+  float: left;
+  margin-top: 666px;
+
+  }
+
+
+
+.enviarBotao{
+  background-color:  #ED7203;
+  border-radius: 6px;
+  position: absolute;
+  width: 102px;
+  height: 23px;
+  left: 482px;
+  top: 835px;
+
+  font-family: arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+
+}
 
 
 
