@@ -211,6 +211,76 @@ p span.numero1::before{
    width: 10px;
 }
 
+p span.numero2{
+   width: 19px;
+   height: 19px;
+   position: relative;
+   background-color: #ED7203;
+   display: inline-flex;
+   border-radius: 50%;
+   float: right;
+}
+
+p span.numero2::before{
+   content: "2";
+   position: absolute;
+   align-self: center;
+   display: inline-flex;
+   margin: 0 auto;
+   color: white;
+   font-weight: 700;
+   left: 0;
+   right: 0;
+   width: 10px;
+}
+
+p span.numero3{
+   width: 19px;
+   height: 19px;
+   position: relative;
+   background-color: #ED7203;
+   display: inline-flex;
+   border-radius: 50%;
+   float: right;
+}
+
+p span.numero3::before{
+   content: "3";
+   position: absolute;
+   align-self: center;
+   display: inline-flex;
+   margin: 0 auto;
+   color: white;
+   font-weight: 700;
+   left: 0;
+   right: 0;
+   width: 10px;
+}
+
+p span.numero4{
+   width: 19px;
+   height: 19px;
+   position: relative;
+   background-color: #ED7203;
+   display: inline-flex;
+   border-radius: 50%;
+   float: right;
+}
+
+p span.numero4::before{
+   content: "4";
+   position: absolute;
+   align-self: center;
+   display: inline-flex;
+   margin: 0 auto;
+   color: white;
+   font-weight: 700;
+   left: 0;
+   right: 0;
+   width: 10px;
+}
+
+
 .cadastro .VantagensMovida {
   position: absolute;
   width: 284px;
@@ -255,10 +325,6 @@ p span.numero1::before{
    padding: 2px;
    margin: 11px;
    line-height: 31px;
-
-
-
-
 
 }
 
@@ -305,7 +371,6 @@ p span.numero1::before{
 
   margin-left:60px;
 }
-
 
  .UpperText {
 
@@ -354,7 +419,206 @@ p span.numero1::before{
 .LowerText p label{
    margin-left: 10px;
 }
+.fomContainer1{
 
+display:inline-flex;
+margin-right:18px;
+}
+
+.fomContainer1 input {
+
+  background: #FFFFFF;
+  border: 1px solid #6B6B6B;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding-right: 8px;
+  float: left:10px;
+  margin-right: 90px;
+  height: 41px;
+  width: 481px;
+  font-size: 18px;
+  font-style: italic;
+}
+.fomContainer2{
+  display:inline-flex;
+  margin-right:10px;
+  padding: 18px;
+}
+
+.fomContainer2 input{
+    background: #FFFFFF;
+    border: 1px solid #6B6B6B;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-right: 8px;
+    float: left 10px;
+    margin-right: 130px;
+    height: 42px;
+    width: 277px;
+    font-size: 18px;
+    font-style: italic;
+    margin-left: -19px;
+
+}
+
+.fomContainer3{
+  display:inline-flex;
+  margin-right:10px;
+  padding: 18px;
+}
+
+.fomContainer3 input{
+
+  background: #FFFFFF;
+  border: 1px solid #6B6B6B;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding-right: 8px;
+  float: left 10px;
+  margin-right: 122px;
+  height: 42px;
+  width: 477px;
+  font-size: 18px;
+  font-style: italic;
+  margin-left: -21px;
+}
+
+.fomcontainerpag2 {
+
+  display: inline-flex;
+    margin-right: 10px;
+    padding: 58px;
+
+}
+
+.fomcontainerpag2 input{
+
+      background: #FFFFFF;
+      border: 1px solid #6B6B6B;
+      box-sizing: border-box;
+      border-radius: 6px;
+      padding-right: 8px;
+      float: left 10px;
+      margin-right: 87px;
+      height: 59px;
+      width: 208px;
+      font-size: 18px;
+      font-style: italic;
+      margin-left: -21px;
+
+}
+
+.fomContainerpag21 {
+    display: inline-flex;
+    margin-right: 10px;
+    padding: 58px;
+    margin-top: -46px;
+
+}
+
+.fomContainerpag21 input {
+
+  background: #FFFFFF;
+  border: 1px solid #6B6B6B;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding-right: 8px;
+  float: left 10px;
+  margin-right: 87px;
+  height: 59px;
+  width: 208px;
+  font-size: 18px;
+  font-style: italic;
+  margin-left: -21px;
+
+}
+
+.dadospessoaispag3{
+    position: absolute;
+    width: 587px;
+    height: 29px;
+    left: 450px;
+    top: 407px;
+    font-family: arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #6B6B6B;
+}
+
+.dadospessoaispag3 p {
+
+      font-family: arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 28px;
+      color: #6B6B6B;
+
+}
+.fidelidade p {
+     display: inline-flex;
+     padding: 0 15px;
+     margin-top: 10px;
+}
+
+.fidelidade p:first-child {
+       padding-left: 0;
+}
+
+.fidelidade p:last-child {
+      padding-right: 0;
+}
+
+.fidelidade p label{
+   margin-left: 10px;
+}
+.titulo2 {
+
+  position: absolute;
+  width: 587px;
+  height: 29px;
+  left: -1px;
+  top: 160px;
+  font-family: arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #6B6B6B;
+  margin-bottom: 10px;
+
+}
+
+.titulo2 p {
+  height: 29px;
+
+
+}
+
+.finalidade {
+
+   font-size: 16px;
+   line-height: 10px;
+
+}
+.finalidade p {
+     display: inline-flex;
+     padding: 0 15px;
+}
+
+.finalidade p:first-child {
+       padding-left: 0;
+}
+
+.finalidade p:last-child {
+      padding-right: 0;
+}
+
+.finalidade p label{
+   margin-left: 20px;
+}
 
 .enviar h4{
   position: absolute;
@@ -372,7 +636,6 @@ p span.numero1::before{
   -webkit-background-clip: text;
 }
 
-
 .enviar {
 
   width: 1210px;
@@ -383,8 +646,6 @@ p span.numero1::before{
   margin-top: 666px;
 
   }
-
-
 
 .enviarBotao input{
   border-radius: 6px;
@@ -449,7 +710,6 @@ p span.numero1::before{
       padding: 0px 39px;
       border-color: coral;
 
-
 }
 
 .dadospessoais .titulo h3{
@@ -466,69 +726,7 @@ p span.numero1::before{
     line-height: 28px;
     color: #6B6B6B;
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .reserva{
   position: absolute;
@@ -551,7 +749,6 @@ p span.numero1::before{
   line-height: 23px;
   color: darkslategrey;
 
-
 }
 .facaReserva{
   position: absolute;
@@ -560,6 +757,7 @@ p span.numero1::before{
   left: 727px;
   top: 494px;
 }
+
 footer{
     position: absolute;
     width: 100%;
