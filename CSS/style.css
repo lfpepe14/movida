@@ -538,7 +538,7 @@ margin-right:18px;
     width: 587px;
     height: 29px;
     left: 450px;
-    top: 407px;
+    top: 381px;
     font-family: arial;
     font-style: normal;
     font-weight: bold;
@@ -552,7 +552,7 @@ margin-right:18px;
       font-family: arial;
       font-style: normal;
       font-weight: normal;
-      font-size: 22px;
+      font-size: 21px;
       line-height: 28px;
       color: #6B6B6B;
 
@@ -576,7 +576,7 @@ margin-right:18px;
 }
 .titulo2 {
 
-  position: absolute;
+
   width: 587px;
   height: 29px;
   left: -1px;
@@ -585,7 +585,7 @@ margin-right:18px;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 17px;
   color: #6B6B6B;
   margin-bottom: 10px;
 
@@ -599,13 +599,19 @@ margin-right:18px;
 
 .finalidade {
 
-   font-size: 16px;
-   line-height: 10px;
+  font-size: 40px;
+  line-height: 10px;
+  display: inline-flex;
+  width: max-content;
+  /* padding: 62px; */
+  padding-top: 58px;
+  height: 0px;
 
 }
 .finalidade p {
      display: inline-flex;
      padding: 0 15px;
+     margin-top: 10px;
 }
 
 .finalidade p:first-child {
@@ -617,8 +623,60 @@ margin-right:18px;
 }
 
 .finalidade p label{
-   margin-left: 20px;
+   margin-left: 10px;
 }
+
+.conheceu {
+  font-size: 40px;
+   line-height: 10px;
+   display: inline-flex;
+   width: max-content;
+   padding-top: 20px;
+}
+.titulo3 h3 {
+  width: 457px;
+  height: 28px;
+  left: 451px;
+  top: 739px;
+  font-family: arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px
+
+}
+.instragram {
+      font-size: 40px;
+      line-height: 10px;
+      display: inline-flex;
+      width: max-content;
+      /* padding: 62px; */
+      padding-top: 65px;
+      height: 0px;
+      /* left: -2px; */
+      /* padding-right: 6px; */
+      padding-left: -54px;
+      margin-left: -463px;
+  }
+}
+.conheceu p {
+     display: inline-flex;
+     padding: 0 15px;
+}
+
+.conheceu p:first-child {
+       padding-left: 0;
+}
+
+.conheceu p:last-child {
+      padding-right: 0;
+}
+  
+.conheceu p label{
+   margin-left: 10px;
+}
+
+
 
 .enviar h4{
   position: absolute;
@@ -714,11 +772,11 @@ margin-right:18px;
 
 .dadospessoais .titulo h3{
 
-    position: absolute;
+
     width: 601px;
     height: 23px;
     left: 453px;
-    top: 441px;
+    top:  389px;;
     font-family: arial;
     font-style: normal;
     font-weight: bold;
